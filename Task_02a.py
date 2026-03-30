@@ -11,17 +11,20 @@
 def count_vowels(text):
     # Write your code here
     count = 0
-    if 'a' in text.lower():
-        count += text.lower().count('a')
-    if 'e' in text.lower:
-        count += text.lower().count('e')
-    if 'i' in text.lower:
-        count += text.lower().count('i')
-    if 'o' in text.lower:
-        count += text.lower().count('o')
-    if 'u' in text.lower:
-        count += text.lower().count('u')
+    text = text.lower()
+    if 'a' in text:
+        count += text.count('a')
+    if 'e' in text:
+        count += text.count('e')  
+    if 'i' in text:
+        count += text.count('i')  
+    if 'o' in text:
+        count += text.count('o')  
+    if 'u' in text:
+        count += text.count('u') 
+    
     return count
+    
       
 
 
