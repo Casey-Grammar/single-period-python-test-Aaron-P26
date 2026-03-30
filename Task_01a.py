@@ -4,11 +4,9 @@
 #
 # Example:
 # calculate_total(4.5, 3) -> 13.5
-
 def calculate_total(price, quantity):
-    # Write your code here
-    pass
-
+    return price * quantity
+    
 
 def main():
     price = float(input("Enter price: "))
