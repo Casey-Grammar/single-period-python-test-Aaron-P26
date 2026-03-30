@@ -13,7 +13,9 @@
 
 def replace_book(books, old_book, new_book):
     # Write your code here
-    pass
+    if old_book in books:
+        books[books.index(old_book)] = new_book
+    return books
 
 
 def main():
